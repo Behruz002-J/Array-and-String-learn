@@ -22,8 +22,8 @@
 //  let d  = massiv.pop(3);
 //  let e  = massiv.pop(4);
 //  console.log(a + b + c + d + e);
- 
- //2----
+
+//2----
 //2.1----
 // let navbat = ['Ali', 'Vali', 'Gani'];
 // navbat.shift();
@@ -40,3 +40,25 @@ let once = age.shift();
 let l = age.push(once);
 console.log(l);
 
+//3.3----
+// let news = ["newSong", "firstSnow", "Spring"];
+// let newmessage = news.unshift("GOAT-CR7");
+// console.log(newmessage);
+// newmessage.pop(3);
+
+//3--splice
+//3.1----
+let raqam = [10, 20, 30, 40, 50];
+raqam.splice(2, 1);
+console.log(raqam);
+
+raqam.splice(2, 0, 31, 32);
+console.log(raqam);
+
+//3.2----
+let fruits = ["Apple", "Banana", "Strawberry", "mandarin"];
+fruits.splice(0, 2);
+console.log(fruits);
+
+//3.3----
+let oddnum = [1, 3, 4, 7, 10, 13];
