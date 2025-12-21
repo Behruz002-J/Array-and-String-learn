@@ -61,23 +61,25 @@ fruits.splice(0, 2);
 console.log(fruits);
 
 //3.3----
-let oddnum = [1, 3,-4, 7, -10, 13];
-oddnum.splice(2, 1,0);
-oddnum.splice(4, 1,0);
+let oddnum = [1, 3, -4, 7, -10, 13];
+oddnum.splice(2, 1, 0);
+oddnum.splice(4, 1, 0);
 console.log(oddnum);
 
 //4----
 //4.1----
- let book = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
- let result = book.slice(1,5);
- console.log(result);
-    
- //4.2----
- let massiv = [1, 2, 3, 4, 5];
-  let newgroup= massiv.slice(2);
- console.log(newgroup);
- 
- //5.----
- //5.1----
- let cost = [100, 200, 300];
- 
+let book = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let result = book.slice(1, 5);
+console.log(result);
+
+//4.2----
+let massiv = [1, 2, 3, 4, 5];
+let newgroup = massiv.slice(2);
+console.log(newgroup);
+
+//5.----
+//5.1----
+let cost = [100, 200, 300];
+
+//function
+//1----
